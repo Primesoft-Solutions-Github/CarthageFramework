@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9B76CA20220C219E00DC27F4 /* PSUIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B76CA1E220C219E00DC27F4 /* PSUIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B76CA27220C223100DC27F4 /* YLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76CA26220C223100DC27F4 /* YLogging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B76CA1B220C219E00DC27F4 /* PSUIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSUIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B76CA1E220C219E00DC27F4 /* PSUIFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSUIFramework.h; sourceTree = "<group>"; };
 		9B76CA1F220C219E00DC27F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B76CA26220C223100DC27F4 /* YLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLogging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				9B76CA1E220C219E00DC27F4 /* PSUIFramework.h */,
 				9B76CA1F220C219E00DC27F4 /* Info.plist */,
+				9B76CA26220C223100DC27F4 /* YLogging.swift */,
 			);
 			path = PSUIFramework;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B76CA27220C223100DC27F4 /* YLogging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PSUIFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +300,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PSUIFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

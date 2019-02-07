@@ -1,0 +1,11 @@
+framework module PSUIFramework {
+  umbrella header "PSUIFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PSUIFramework.Swift {
+    header "PSUIFramework-Swift.h"
+    requires objc
+}
